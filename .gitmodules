@@ -1,0 +1,6 @@
+[submodule "external/emojilib"]
+	path = external/emojilib
+	url = git@github.com:muan/emojilib.git
+[submodule "external/english-words"]
+	path = external/english-words
+	url = git@github.com:dwyl/english-words.git
