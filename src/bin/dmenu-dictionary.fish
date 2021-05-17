@@ -2,7 +2,7 @@
 
 set -l cwd (realpath (dirname (status -f)))
 set -l word (dmenu -p 'Dictionary' < $cwd/../share/dmenu-utils-fish/words.txt)
-set -l action (echo -e 'Copy\nLookup' | dmenu -p "Dictionary: $word")
+set -l action (echo -e 'Lookup\nCopy' | dmenu -p "Dictionary: $word")
 
 switch $action
     case 'Copy'
